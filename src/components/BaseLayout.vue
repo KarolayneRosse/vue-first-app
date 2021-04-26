@@ -21,17 +21,19 @@ import {
   IonContent,
   IonToolbar,
   IonButtons,
+  IonBackButton
 } from "@ionic/vue";
 
 export default {
   props: ["title",'pageDefaultBackLink'],
-  components: [
+  components: {
     IonPage,
     IonHeader,
     IonTitle,
     IonContent,
     IonToolbar,
     IonButtons,
-  ],
+    IonBackButton
+  },
 };
 </script>
